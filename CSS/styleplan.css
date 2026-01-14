@@ -1,0 +1,35 @@
+h2{
+font-size: 26 px;
+color: green;
+}
+h1{
+	font-size: 67 px;
+	color:#0A0080;
+	font-family: 'serif';
+	font-style: italic;
+	font-weight: 700;
+}
+p{
+	font-size: 22px;
+	color: teal;
+}
+td{
+	background-color: #ABCDEF;
+}
+h3{
+	font-size: 40px;
+		color: #6666CC;
+	font-family: 'Times New Roman', serif; font-style: italic;
+}
+th{
+	color: olive;
+	background-color: #00eeee;
+}
+h4{
+	color: red;
+	font-size: 34px;
+}
+h5{
+	font-size: xx-large;
+	color: #CC0066;
+}
