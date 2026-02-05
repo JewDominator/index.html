@@ -1,0 +1,69 @@
+ul
+{
+	float: left;
+	list-style: none;
+	}
+	
+li a
+{display: block;
+    width: 100x;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    padding: 5px 10px;
+    margin: 0px 0px 0px;
+    border-radius: 4px;
+    box-shadow: 2px 2px silver;
+	}
+ li a:hover
+ {
+	 background: silver;
+	 box-shadow: 0px 0px 0px 
+ }
+ #naglowek
+{
+    background: #A24418;
+    text-align: center;
+    min-height: 100px;
+	background-image: url("123.jpg")
+}
+
+#menu
+{
+    float: left;
+    width: 21%;
+}
+
+#informacje
+{
+    float: left;
+    width: 71%;
+    background: #676F67;
+    padding: 21px;
+    margin: 5px 5px 5px 5px;
+    min-height: 101px;
+}
+
+#stopka
+{
+    clear: both;
+    background: #AA0F92;
+    text-align: center;
+    min-height: 50px;
+}
+h2
+{
+	color: #785A41;
+	height: 20px;
+}
+h3
+{
+	color: green;
+	height: 15px;
+}
+h1
+{
+	color: purple;
+	height: 40px;
