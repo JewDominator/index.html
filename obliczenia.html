@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=ISO-8859-2" />  
+  <title>[ Tytul dokumentu ]</title>
+</head>
+<body>
+<script language="JavaScript">
+
+function liczbmi() {
+/* Odwołanie do formularza i jego elementów przez nazwę*/
+var skl1=parseFloat(document.Form.a.value);
+if (skl1<=0 || skl1>=200) {alert("nieprawidłowa waga"); return 0;}
+var skl2=parseFloat(document.Form.b.value);
+if (skl2<=100 || skl2>=250) {alert("nieprawidłowy wzrost"); return 0;}
+var wynik = skl1/(skl2*skl2)*10000;
+alert ("BMI: " + wynik);
+if (wynik<18.5) alert ("Kategoria: niedowaga");
+else if (wynik<25) alert ("Kategoria: waga prawidłowa");
+else if (wynik<30) alert ("Kategoria: nadwaga");
+else alert("Kategoria: otyłość");
+}
+</script>
+
+<form name="Form">
+Waga (kg) <input type="Text" name="a"><br>
+Wzrost (cm) <input type="Text" name="b"><br>
+<input type="Button" value="Oblicz BMI" onclick="liczbmi()"><br><br>
+Czy jesteś po śniadaniu?<br>
+<input type="checkbox" name="sniadanie"> Tak, jestem po śniadaniu<br><br>
+
+Narodowość:<br>
+<input type="radio" name="narodowosc" value="Polak"> Polak<br>
+<input type="radio" name="narodowosc" value="Somalijczyk"> Somalijczyk<br>
+<input type="radio" name="narodowosc" value="Saotomanczyk"> Saotomańczyk<br>
+<input type="radio" name="narodowosc" value="Kamczadal"> Kamczadal<br>
+<input type="radio" name="narodowosc" value="Marszalezi"> Marszalezi<br>
+</form>
+<hr>
+
+</body>
+</html>
