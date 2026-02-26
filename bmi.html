@@ -7,17 +7,17 @@
 <script language="JavaScript">
 
 function liczbmi() {
-/* Odwo≥anie do formularza i jego elementÛw przez nazwÍ*/
+/* Odwo≈Çanie do formularza i jego element√≥w przez nazwƒô*/
 var skl1=parseFloat(document.Form.a.value);
-if (skl1<=0 || skl1>=200) {alert("nieprawid≥owa waga"); return 0;}
+if (skl1<=0 || skl1>=200) {alert("nieprawid≈Çowa waga"); return 0;}
 var skl2=parseFloat(document.Form.b.value);
-if (skl2<=100 || skl2>=250) {alert("nieprawid≥owy wzrost"); return 0;}
+if (skl2<=100 || skl2>=250) {alert("nieprawid≈Çowy wzrost"); return 0;}
 var wynik = skl1/(skl2*skl2)*10000;
 alert ("BMI: " + wynik);
 if (wynik<18.5) alert ("Kategoria: niedowaga");
-else if (wynik<25) alert ("Kategoria: waga prawid≥owa");
+else if (wynik<25) alert ("Kategoria: waga prawid≈Çowa");
 else if (wynik<30) alert ("Kategoria: nadwaga");
-else alert("Kategoria: oty≥o∂Ê");
+else alert("Kategoria: oty≈Ço≈õƒá");
 }
 </script>
 
@@ -25,13 +25,13 @@ else alert("Kategoria: oty≥o∂Ê");
 Waga (kg) <input type="Text" name="a"><br>
 Wzrost (cm) <input type="Text" name="b"><br>
 <input type="Button" value="Oblicz BMI" onclick="liczbmi()"><br><br>
-Czy jeste∂ po ∂niadaniu?<br>
-<input type="checkbox" name="sniadanie"> Tak, jestem po ∂niadaniu<br><br>
+Czy jeste≈õ po ≈õniadaniu?<br>
+<input type="checkbox" name="sniadanie"> Tak, jestem po ≈õniadaniu<br><br>
 
-Narodowo∂Ê:<br>
+Narodowo≈õƒá:<br>
 <input type="radio" name="narodowosc" value="Polak"> Polak<br>
 <input type="radio" name="narodowosc" value="Somalijczyk"> Somalijczyk<br>
-<input type="radio" name="narodowosc" value="Saotomanczyk"> SaotomaÒczyk<br>
+<input type="radio" name="narodowosc" value="Saotomanczyk"> Saotoma≈Ñczyk<br>
 <input type="radio" name="narodowosc" value="Kamczadal"> Kamczadal<br>
 <input type="radio" name="narodowosc" value="Marszalezi"> Marszalezi<br>
 </form>
